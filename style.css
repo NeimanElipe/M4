@@ -1,0 +1,24 @@
+h1 { /* Aqui estem asignant que a l'h1 sigui de color blau, que tingui la font "blod" i estigui alineat*/
+    color:blue;
+    font: bold;
+    text-align: center;
+}
+table{ /*Aqui estem fent a la taula apareguin les caselles de color negre.*/
+    color: black;  
+    border: none;
+    text-align:center;
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+    width: 75%;
+}
+th, td{/* El format de totes les columnes i files es aquest.*/
+    width: 25%;
+    border: 1px solid black;
+    text-align: center;   
+}
+
+th{/* Aquest es el format unic de la capçalera.*/
+    font-style: bold;  
+    background-color:gray    
+}
